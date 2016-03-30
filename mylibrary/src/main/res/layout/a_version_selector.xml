@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dip"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:text="@string/soft_update_title"
+            android:textColor="#2A2A2A"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#00a3d7"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:text="@string/soft_update_info"
+            android:textColor="#2A2A2A"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#2A2A2A"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip" >
+
+        <LinearLayout
+            android:id="@+id/ll_button_ok"
+            android:layout_width="125dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            
+            android:gravity="center_vertical|center_horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soft_update_updatebtn"
+                android:textColor="#2A2A2A" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.5dip"
+            android:layout_height="45dip"
+            android:layout_toRightOf="@+id/ll_button_ok"
+            android:background="#2A2A2A" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_button_cancel"
+            android:layout_width="125dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soft_update_later"
+                android:textColor="#2A2A2A" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

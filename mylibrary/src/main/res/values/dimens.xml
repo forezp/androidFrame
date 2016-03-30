@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="updatebar_height">62.0dip</dimen>
+    <dimen name="updatebar_content_height">60.0dip</dimen>
+    <dimen name="updatebar_padding">10.0dip</dimen>
+    <dimen name="bottom_tab_padding_drawable">0dp</dimen>
+	<dimen name="bottom_tab_padding_up">2dip</dimen>
+	<dimen name="bottom_tab_font_size">12sp</dimen>
+	<dimen name="button_height">45.0dip</dimen>
+	
+	<!-- 字体 -->
+	 <dimen name="top_text_size1">20sp</dimen>
+	 <dimen name="dp">10dp</dimen>
+	
+	<!-- slidemenu 设置 -->
+	<dimen name="slidingmenu_offset">80dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">1dp</dimen>
+
+    <integer name="num_cols">1</integer>
+    
+	  <!--padding  svProgressDialog-->
+    <dimen name="padding_svprogresshuddefault">15dp</dimen>
+    <!--窗口最小宽度-->
+    <dimen name="size_minwidth_svprogresshuddefault">120dp</dimen>
+    <!--图片宽高-->
+    <dimen name="size_image_bigloading">80dp</dimen>
+    <!--图片宽高-->
+    <dimen name="size_image_smallloading">60dp</dimen>
+    <!--圆角-->
+    <dimen name="radius_svprogresshuddefault">25px</dimen>
+    <!--提示的文字大小-->
+    <dimen name="textSize_svprogresshuddefault_msg">15sp</dimen>
+    <dimen name="margintop_svprogresshuddefault_msg">10dp</dimen>
+
+    <!--titeBar-->
+      <dimen name="height_top_bar">46dp</dimen>
+</resources>

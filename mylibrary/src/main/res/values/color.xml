@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="pink">#fdf9eb</color>
+    <color name="yellow">#fe6600</color>
+    <color name="red">#f40707</color>
+    <color name="transparent">#00000000</color>
+    <!-- 覆盖颜色 -->
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="bgColor_overlay_black">#95000000</color>
+    <!-- 窗口背景颜色 -->
+    <color name="bgColor_svprogressdefaultview">@android:color/white</color>
+    <!-- 标题颜色 -->
+    <color name="textColor_svprogresshuddefault_msg">#000000</color>
+    <color name="roundColor_svprogresshuddefault">#e5e5e5</color>
+    <color name="roundProgressColor_svprogresshuddefault">@android:color/black</color>
+    <!-- 底部RatioGroup的颜色 -->
+    <color name="botton_main">#353c4c51</color>
+    <color name="botton_ratiobutton">#883f464d</color>
+    <color name="botton_divider">#3f464d</color>
+
+    <!--  下拉刷新的背景-->
+    <color name="settlement_center_bg">#00000000</color>
+
+    <color name="textColor">#fff</color>
+</resources>

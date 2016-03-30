@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/user_avator"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            fresco:roundAsCircle="true"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:roundedCornerRadius="10dp"
+            android:layout_centerVertical="true"
+            />
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/sdv1"
+            fresco:roundedCornerRadius="8dp"
+            fresco:roundingBorderWidth="1dp"
+            fresco:actualImageScaleType="focusCrop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/sdv2"
+            fresco:actualImageScaleType="focusCrop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/sdv3"
+
+            fresco:actualImageScaleType="focusCrop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/sdv4"
+            fresco:actualImageScaleType="focusCrop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/sdv5"
+            fresco:actualImageScaleType="focusCrop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/sdv6"
+            fresco:actualImageScaleType="focusCrop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <Button
+            android:id="@+id/gson_test"
+            android:text="gson"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

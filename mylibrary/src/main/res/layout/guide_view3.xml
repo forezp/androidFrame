@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_guide_step_3"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="130dp"
+        android:layout_height="42dp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:textSize="18sp"
+        android:background="@drawable/button_white_selector_stroke"
+        android:text="点击进入" />
+
+</RelativeLayout>
