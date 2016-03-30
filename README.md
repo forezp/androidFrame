@@ -104,7 +104,7 @@
 
 							3.提交其他数据见zhy的github 写得非常清楚！
 
-							#buterKnif Jake的作品
+#buterKnif Jake的作品
 							地址 https://github.com/JakeWharton/butterknife
 
 							用法见其gitHub
