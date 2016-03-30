@@ -1,6 +1,6 @@
 # androidFrame  Fresco-OkHttp-gson-buterKnif-GreenDAO整合
 
-							# Fresco
+# Fresco
 							  1.facebook 是一个强大的图片加载组件。 相比于ImageLoader 它的流畅性更换，因为
 							   它直接是一个自定义的控件。
 							   详细用法： http://www.fresco-cn.org/
@@ -47,7 +47,7 @@
 							    userAvator.setImageURI(uri);
 
 
-						# OKhttp  我用zhy的封装好的工具jar ,导包初始化见上面
+# OKhttp  我用zhy的封装好的工具jar ,导包初始化见上面
 						 zhy 地址https://github.com/hongyangAndroid/okhttp-utils
 
 						 1.需要在Application中初始化
@@ -136,8 +136,7 @@
 
 				具体见
 				https://segmentfault.com/q/1010000003740558
-
-				#Gson
+#Gson
 
 				Gson 是 Google 提供的用来在 Java 对象和 JSON 数据之间进行映射的 Java 类库。可以将一个 JSON 字符串转成一个 Java 对象，或者反过来。
 
