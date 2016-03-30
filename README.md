@@ -1,4 +1,4 @@
-							# androidFrame  Fresco-OkHttp-gson-buterKnif-GreenDAO整合
+# androidFrame  Fresco-OkHttp-gson-buterKnif-GreenDAO整合
 
 							# Fresco
 							  1.facebook 是一个强大的图片加载组件。 相比于ImageLoader 它的流畅性更换，因为
