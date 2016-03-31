@@ -11,4 +11,8 @@ public class Constants {
     public static final String SP_PASSWORD="password";
     public static final String SP_USERNAME="username";
     public static final String SP_ID="id";
+
+    public static  int current_fragment_index;
+
+
 }

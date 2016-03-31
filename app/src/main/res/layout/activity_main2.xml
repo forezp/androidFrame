@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_frame_background" >
+
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/youce"
+                android:onClick="OpenRightMenu" />
+        </RelativeLayout>
+
+        <com.forezp.newframe.view.CustomViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:persistentDrawingCache="none" />
+
+        <LinearLayout
+            android:id="@+id/console_line_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/main_tab_group"
+                style="@style/AppTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/botton_main"
+                android:gravity="bottom"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/main_tab_home"
+                    style="@style/main_tab_bottom"
+                    android:background="@color/botton_ratiobutton"
+                    android:checked="true"
+                    android:drawableTop="@drawable/rb_weather_home"
+                    android:text="@string/menu1" />
+
+                <RadioButton
+                    android:id="@+id/main_tab_product"
+                    style="@style/main_tab_bottom"
+                    android:drawableTop="@drawable/rb_weather_product"
+                    android:text="@string/menu2" />
+
+                <RadioButton
+                    android:id="@+id/main_tab_life"
+                    style="@style/main_tab_bottom"
+                    android:drawableTop="@drawable/rb_weather_life"
+                    android:text="@string/menu3" />
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/id_left_menu"
+        android:name="com.forezp.newframe.fragment.MenuLeftFragment"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:tag="LEFT" />
+
+    <fragment
+        android:id="@+id/id_right_menu"
+        android:name="com.forezp.newframe.fragment.MenuRightFragment"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:tag="RIGHT" />
+</android.support.v4.widget.DrawerLayout>

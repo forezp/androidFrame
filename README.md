@@ -1,5 +1,16 @@
 # androidFrame  Fresco-OkHttp-gson-buterKnif-GreenDAO整合
 
+## 直接上图
+
+Screenshots
+-------------
+
+<img src="screenshots/1.png" height="400" alt="Screenshot"/> <img src="screenshots/2.png" height="400" alt="Screenshot"/> 
+<img src="screenshots/3.png" height="400" alt="Screenshot"/> <img src="screenshots/4.png" height="400" alt="Screenshot"/> 
+<img src="screenshots/5.png" height="400" alt="Screenshot"/> 
+
+---------------
+
 # Fresco
 							  1.facebook 是一个强大的图片加载组件。 相比于ImageLoader 它的流畅性更换，因为
 							   它直接是一个自定义的控件。

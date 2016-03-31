@@ -3,4 +3,8 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="menu1">Fresco</string>
+    <string name="menu2">OKHTTP</string>
+    <string name="menu3">OTHER</string>
 </resources>
